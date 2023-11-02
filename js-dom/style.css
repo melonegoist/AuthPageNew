@@ -1,0 +1,67 @@
+body{
+    background-color: #121212;
+    color:#fff  
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.label {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.input {
+    background-color: #121212;
+    border: 10px sold coral ;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    color:coral;
+    margin-left: 508px;
+}
+
+.log_in{
+    background-color: #121212;
+    border: 1px solid blanchedalmond ;
+    border-radius: 5px;
+    color: bisque;
+    width: 200px;
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    margin:0;
+    margin-top:50px;
+    margin-left: 583px;
+    transition-duration: 0.5s;
+
+}
+
+.log_in:hover{
+    background-color: rgba(0, 255, 255, 0.424)
+}
+
+.log_in:active{
+    transition-duration: 0.1s;
+    background-color:indianred;
+}
+
+.show_password{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border: none;
+    opacity: 100%;
+    background: none;
+    background-image: url(file:img/my_icon_hidden.png);
+    background-repeat: no-repeat;
+    margin-top: -48px;
+    margin-left: 30px;
+    cursor: pointer;
+}
